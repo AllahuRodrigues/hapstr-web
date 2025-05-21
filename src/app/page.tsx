@@ -1,17 +1,17 @@
-import Nav           from '@/components/Nav';
-import Hero          from '@/components/Hero';
-import Timeline      from '@/components/Timeline';
-import VideoEmbed    from '@/components/VideoEmbed';
-import Pricing       from '@/components/Pricing';
-import Contact       from '@/components/Contact';
+import Hero from "@/components/Hero";
+import FeatureCards from "@/components/FeatureCards";
+import Timeline from "@/components/Timeline";
+import VideoEmbed from "@/components/VideoEmbed";
+import Pricing from "@/components/Pricing";
+import Contact from "@/components/Contact";
 
-export default function Landing() {
+export default function Page() {
   return (
     <>
-      <Nav />
       <Hero />
-      <Timeline />     {/* scroll-triggered steps */}
-      <VideoEmbed />   {/* immersive autoplay video */}
+      <FeatureCards />
+      <Timeline />
+      <VideoEmbed />
       <Pricing />
       <Contact />
     </>

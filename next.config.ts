@@ -1,5 +1,8 @@
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
-  output: 'export',
-  images: { unoptimized: true }, // ✅ no more optimiser crash
+  output: "export",
+  images: { unoptimized: true },
 };
+
+module.exports = nextConfig;
